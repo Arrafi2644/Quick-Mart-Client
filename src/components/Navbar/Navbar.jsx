@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
   return (
-    <div className='bg-orange-500 text-white'>
+    <div className='bg-[#F90716] text-white'>
       {/* nav-1  */}
       <div className="navbar justify-between container mx-auto px-2">
         <div className="navbar-start w-auto md:w-1/3">
@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <div className="navbar-end grow">
           <ul className='menu menu-horizontal px-1 flex items-center'>
-            <li><Link ><IoCartOutline size={20} /></Link></li>
+            <li><Link ><IoCartOutline size={20} />  <span className='hidden lg:block'>Cart</span></Link></li>
             <li><Link > <PiStorefront size={20} /> <span className='hidden lg:block'>Become a seller</span></Link></li>
             <li><Link > <MdOutlineAccountCircle size={20} /> Login</Link></li>
           </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
 
       {/* nav-2  */}
-      <div className="navbar bg-base-100 shadow-sm md:hidden">
+      <div className="navbar shadow-sm md:hidden">
         <div className="navbar-center w-full block md:hidden">
           {/* Search bar  */}
           <label className="input w-full">
