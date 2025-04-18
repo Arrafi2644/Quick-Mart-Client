@@ -1,7 +1,38 @@
-.slick-arrow::before{
+.slick-slider {
+    position: relative;
+}
+
+.slick-slider .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 4px;
+    height: auto;
+    width: auto;
+}
+
+.slick-slider .slick-prev {
+    left: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.slick-slider .slick-next {
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+
+.slick-arrow::before {
     color: red;
     font-size: 20px;
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /* .slick-arrow:hover{

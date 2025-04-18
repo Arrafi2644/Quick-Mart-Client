@@ -8,12 +8,12 @@ import { Link } from 'react-router';
 const Banner = () => {
 
     let sliderRef = useRef(null);
-    const play = () => {
-        sliderRef.slickPlay();
-    };
-    const pause = () => {
-        sliderRef.slickPause();
-    };
+    // const play = () => {
+    //     sliderRef.slickPlay();
+    // };
+    // const pause = () => {
+    //     sliderRef.slickPause();
+    // };
 
     let settings = {
         dots: false,
@@ -22,25 +22,21 @@ const Banner = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 3000
     };
 
 
     return (
         <Slider ref={slider => (sliderRef = slider)}  {...settings}>
             <Link className='h-[400px] w-full '>
-                {/* <h3>1</h3> */}
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/gMqH4VQm/image.png" alt="" />
             </Link>
             <Link className='h-[400px] w-full '>
-                {/* <h3>2</h3> */}
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/ycq2CsFW/image.png" alt="" />
             </Link>
             <Link className='h-[400px] w-full '>
-                {/* <h3>3</h3> */}
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/BVZVL460/image.png" alt="" />
             </Link>
-
         </Slider>
     );
 };

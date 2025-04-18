@@ -1,9 +1,7 @@
 import React from 'react';
 import { IoCartOutline } from 'react-icons/io5';
-import { LiaStoreAltSolid } from 'react-icons/lia';
 import { MdOutlineAccountCircle } from 'react-icons/md';
-import { PiStorefront, PiStorefrontBold, PiStorefrontLight, PiStorefrontThin } from 'react-icons/pi';
-import { RiAccountCircleLine } from 'react-icons/ri';
+import { PiStorefront} from 'react-icons/pi';
 import { Link } from 'react-router';
 
 const Navbar = () => {
@@ -27,7 +25,7 @@ const Navbar = () => {
         <div className="navbar-end grow">
           <ul className='menu menu-horizontal px-1 flex items-center'>
             <li><Link ><IoCartOutline size={20} />  <span className='hidden lg:block'>Cart</span></Link></li>
-            <li><Link > <PiStorefront size={20} /> <span className='hidden lg:block'>Become a seller</span></Link></li>
+            <li><Link > <PiStorefront size={20} /> <span className='hidden lg:block'>Become a Seller</span></Link></li>
             <li><Link > <MdOutlineAccountCircle size={20} /> Login</Link></li>
           </ul>
         </div>
