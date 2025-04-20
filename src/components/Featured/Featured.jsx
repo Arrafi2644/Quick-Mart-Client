@@ -2,14 +2,14 @@ import React from 'react';
 import useAllProducts from '../../hooks/useAllProducts';
 import SectionProducts from '../Categories/SectionProducts/SectionProducts';
 import SectionHeader from '../SectionHeader/SectionHeader';
+import SectionSlider from '../SectionSlider/SectionSlider';
 
 const Featured = () => {
     const [products] = useAllProducts();
     
-    const FeaturedProducts = products.filter(product =>
-       product.sectionTags.includes("Featured")
+    const featuredProducts = products.filter(product =>
+        product?.featured === true
     );
-
 
     return (
         <div className='mt-6 bg-white p-6'>
@@ -17,10 +17,10 @@ const Featured = () => {
            <SectionHeader title={"Featured"} />
 
            {/* Section content  */}
-          <SectionProducts products={FeaturedProducts}/>
+          <SectionProducts products={featuredProducts}/>
 
            {/* with slider  */}
-           {/* <SectionSlider products={flashSaleProducts}/> */}
+           {/* <SectionSlider products={featuredProducts}/> */}
         </div>
     );
 };

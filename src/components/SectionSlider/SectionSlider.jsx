@@ -50,7 +50,7 @@ const SectionSlider = ({ products }) => {
                         <div className='p-2'>
                             <h3 className='font-medium text-sm'>{product?.title}</h3>
                             <div className='flex items-center'><TbCurrencyTaka /><h3>{product?.price}</h3></div>
-                            <h3>-{product?.discount}</h3>
+                            <h3><del className='flex items-center text-gray-400' ><TbCurrencyTaka />{product?.price}</del>-{product?.discount}</h3>
                         </div>
                     </div>)
                 }

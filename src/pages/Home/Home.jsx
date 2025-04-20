@@ -3,6 +3,7 @@ import Banner from '../../components/Banner/Banner';
 import Categories from '../../components/Categories/Categories';
 import FlashSale from '../../components/FlashSale/FlashSale';
 import Featured from '../../components/Featured/Featured';
+import AllCategoryProductsSection from '../../components/AllCategoryProductsSection/AllCategoryProductsSection';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Categories/>
             <FlashSale/>
             <Featured/>
+            <AllCategoryProductsSection/>
         </div>
     );
 };

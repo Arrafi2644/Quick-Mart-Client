@@ -10,10 +10,9 @@ const FlashSale = () => {
     const [products] = useAllProducts();
     
     const flashSaleProducts = products.filter(product =>
-       product.sectionTags.includes("Flash Sale")
+       product?.flash_sale === true
     );
 
-    console.log(flashSaleProducts);
 
 
     return (

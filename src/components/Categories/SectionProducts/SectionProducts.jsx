@@ -10,8 +10,8 @@ const SectionProducts = ({ products }) => {
                     <img src={product?.images[0]} alt={product?.name} />
                     <div className='p-2'>
                         <h3 className='font-medium text-sm'>{product?.title}</h3>
-                        <h3 className='flex items-center gap-0 font-medium text-lg'><TbCurrencyTaka />{parseInt(product?.price - (product?.price * parseFloat(product?.discount)/100))}</h3>
-                        <h3 className='flex items-center'><del className='text-gray-400 flex items-center gap-0'><TbCurrencyTaka /> {product?.price}</del> -{product?.discount}</h3>
+                        <h3 className='flex items-center gap-0 font-medium text-lg'><TbCurrencyTaka />{parseInt(product?.price - product?.price * product.discount / 100)}</h3>
+                        <h3 className='flex items-center'><del className='text-gray-400 flex items-center gap-0'><TbCurrencyTaka /> {product?.price}</del> -{product?.discount}%</h3>
                     </div>
                 </Link>)
             }
