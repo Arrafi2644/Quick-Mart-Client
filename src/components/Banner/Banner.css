@@ -6,8 +6,8 @@
     position: absolute;
     z-index: 10;
     background-color: white;
-    padding: 4px;
-    height: auto;
+    padding: 6px;
+    height: 28px;
     width: auto;
 }
 
@@ -27,7 +27,7 @@
 
 
 .slick-arrow::before {
-    color: red;
+    color: #f95c07;
     font-size: 20px;
     display: flex;
     align-items: center;

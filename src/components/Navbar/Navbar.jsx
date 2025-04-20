@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
   return (
-    <div className='bg-[#F90716] text-white'>
+    <div className='bg-[#f95c07] text-white'>
       {/* nav-1  */}
       <div className="navbar justify-between container mx-auto px-2">
         <div className="navbar-start w-auto md:w-1/3">

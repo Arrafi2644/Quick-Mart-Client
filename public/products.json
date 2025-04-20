@@ -1,0 +1,722 @@
+[
+    {
+        "_id": "1",
+        "productName": "fantech-hq53",
+        "title": "FANTECH HQ53 FLASH LIGHTWEIGHT GAMING HEADSET",
+        "brand": "Fantech",
+        "category": "Electronics",
+        "price": 1180,
+        "discount": "15%",
+        "sectionTags": [
+            "Flash Sale",
+            "Featured",
+            "Just For You"
+        ],
+        "color_family": [
+            "Red",
+            "White"
+        ],
+        "warranty": "1 year Brand Warranty",
+        "images": [
+            "https://i.ibb.co.com/21GMpph2/image.png",
+            "https://i.ibb.co.com/gZdvrNHn/image.png",
+            "https://i.ibb.co.com/60gYsZDr/image.png"
+        ],
+        "features": {
+            "lighting_effect": "Accent lighting on each ear cup",
+            "connectivity": "3.5mm jack + USB",
+            "design": "Lightweight and comfortable"
+        },
+        "specifications": {
+            "speaker_size": "40mm",
+            "mic_noise_cancellation": "Yes",
+            "connector_type": "3.5mm + USB"
+        },
+        "ratings": {
+            "average_rating": 4.4,
+            "total_reviews": 209
+        }
+    },
+    {
+        "_id": "2",
+        "productName": "kitchen-blender-500w",
+        "title": "Sharp 500W Kitchen Blender With 2 Jars",
+        "brand": "Sharp",
+        "category": "Home & Kitchen",
+        "price": 2590,
+        "discount": "10%",
+        "sectionTags": [
+            "Featured",
+            "Just For You"
+        ],
+        "color_family": [
+            "White",
+            "Black"
+        ],
+        "warranty": "2 years Manufacturer Warranty",
+        "images": [
+            "https://i.ibb.co.com/ycCGv3RP/image.png",
+            "https://i.ibb.co.com/dw7k9kCb/image.png",
+            "https://i.ibb.co.com/CsK2Gr7m/image.png"
+        ],
+        "features": {
+            "power": "500W",
+            "capacity": "1.5L",
+            "blades": "Stainless steel blades"
+        },
+        "specifications": {
+            "voltage": "220V",
+            "speed_settings": "2 speed + pulse",
+            "material": "Plastic + Stainless Steel"
+        },
+        "ratings": {
+            "average_rating": 4.6,
+            "total_reviews": 118
+        }
+    },
+    {
+        "_id": "3",
+        "productName": "kids-building-blocks",
+        "title": "Creative Kids Building Blocks Set",
+        "brand": "ToyMaster",
+        "category": "Toys",
+        "price": 890,
+        "discount": "5%",
+        "sectionTags": [
+            "Just For You"
+        ],
+        "color_family": [
+            "Multicolor"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/cS4PPMvt/image.png",
+            "https://i.ibb.co.com/RTHQQbKs/image.png",
+            "https://i.ibb.co.com/MyWgdPFr/image.png"
+        ],
+        "features": {
+            "pieces": "120 pieces",
+            "material": "Safe ABS plastic",
+            "age": "3+ years"
+        },
+        "specifications": {
+            "package_weight": "1kg",
+            "package_dimensions": "30x20x10cm"
+        },
+        "ratings": {
+            "average_rating": 4.3,
+            "total_reviews": 74
+        }
+    },
+    {
+        "_id": "4",
+        "productName": "logitech-wireless-mouse",
+        "title": "Logitech M170 Wireless Mouse",
+        "brand": "Logitech",
+        "category": "Electronics",
+        "price": 950,
+        "discount": "20%",
+        "sectionTags": [
+            "Flash Sale"
+        ],
+        "color_family": [
+            "Black",
+            "Grey"
+        ],
+        "warranty": "1 year Brand Warranty",
+        "images": [
+            "https://i.ibb.co.com/BSFV9ZF/image.png",
+            "https://i.ibb.co.com/Ps1fTyGK/image.png",
+            "https://i.ibb.co.com/zWGX1k94/image.png"
+        ],
+        "features": {
+            "connectivity": "2.4GHz wireless",
+            "range": "Up to 10m",
+            "battery_life": "12 months"
+        },
+        "specifications": {
+            "sensor": "Optical",
+            "buttons": "3",
+            "dpi": "1000"
+        },
+        "ratings": {
+            "average_rating": 4.7,
+            "total_reviews": 312
+        }
+    },
+    {
+        "_id": "5",
+        "productName": "steel-water-bottle-1l",
+        "title": "1L Stainless Steel Vacuum Water Bottle",
+        "brand": "AquaGuard",
+        "category": "Home & Kitchen",
+        "price": 499,
+        "discount": "12%",
+        "sectionTags": [
+            "Featured"
+        ],
+        "color_family": [
+            "Silver"
+        ],
+        "warranty": "6 Months",
+        "images": [
+            "https://i.ibb.co.com/gZ64nbpk/image.png",
+            "https://i.ibb.co.com/FkXnQVJj/image.png",
+            "https://i.ibb.co.com/nq7b7sct/image.png"
+        ],
+        "features": {
+            "capacity": "1 liter",
+            "insulation": "Keeps hot/cold up to 12 hrs"
+        },
+        "specifications": {
+            "material": "Stainless Steel",
+            "weight": "300g"
+        },
+        "ratings": {
+            "average_rating": 4.5,
+            "total_reviews": 89
+        }
+    },
+    {
+        "_id": "6",
+        "productName": "wireless-earbuds-pro",
+        "title": "AirPro X5 True Wireless Earbuds",
+        "brand": "SoundMax",
+        "category": "Electronics",
+        "price": 2190,
+        "discount": "18%",
+        "sectionTags": [
+            "Flash Sale",
+            "Just For You"
+        ],
+        "color_family": [
+            "Black",
+            "White"
+        ],
+        "warranty": "1 year Warranty",
+        "images": [
+            "https://i.ibb.co.com/4RkTTHv9/image.png",
+            "https://i.ibb.co.com/gb9NTzrK/image.png",
+            "https://i.ibb.co.com/jvKDj4Fq/image.png"
+        ],
+        "features": {
+            "play_time": "Up to 20 hours",
+            "connectivity": "Bluetooth 5.1",
+            "charging": "USB-C fast charging"
+        },
+        "specifications": {
+            "water_resistant": "IPX4",
+            "driver_size": "10mm"
+        },
+        "ratings": {
+            "average_rating": 4.2,
+            "total_reviews": 145
+        }
+    },
+    {
+        "_id": "7",
+        "productName": "toys-remote-car-red",
+        "title": "Remote Control Racing Car - Red",
+        "brand": "ZoomToys",
+        "category": "Toys",
+        "price": 1450,
+        "discount": "10%",
+        "sectionTags": [
+            "Featured"
+        ],
+        "color_family": [
+            "Red",
+            "Blue",
+            "Yellow"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/LdMwcJYC/image.png",
+            "https://i.ibb.co.com/4R8RjRgX/image.png",
+            "https://i.ibb.co.com/wZj11nrv/image.png"
+        ],
+        "features": {
+            "speed": "Up to 20 km/h",
+            "range": "Up to 30m"
+        },
+        "specifications": {
+            "battery": "Rechargeable (included)",
+            "material": "ABS Plastic"
+        },
+        "ratings": {
+            "average_rating": 4.1,
+            "total_reviews": 96
+        }
+    },
+    {
+        "_id": "8",
+        "productName": "smart-watch-z6",
+        "title": "Z6 Fitness Smart Watch with Heart Rate Monitor",
+        "brand": "SmartLife",
+        "category": "Electronics",
+        "price": 1690,
+        "discount": "22%",
+        "sectionTags": [
+            "Flash Sale"
+        ],
+        "color_family": [
+            "Black",
+            "Pink"
+        ],
+        "warranty": "1 Year",
+        "images": [
+            "https://i.ibb.co.com/21QY0jKJ/image.png",
+            "https://i.ibb.co.com/fz72by1f/image.png",
+            "https://i.ibb.co.com/DgLWxqLW/image.png"
+        ],
+        "features": {
+            "functions": [
+                "Heart Rate",
+                "Step Count",
+                "Sleep Tracking"
+            ],
+            "connectivity": "Bluetooth"
+        },
+        "specifications": {
+            "screen_size": "1.3 inch",
+            "battery_life": "7 days"
+        },
+        "ratings": {
+            "average_rating": 4.0,
+            "total_reviews": 165
+        }
+    },
+    {
+        "_id": "9",
+        "productName": "non-stick-pan-set",
+        "title": "Non-Stick Cookware Set (5 Pieces)",
+        "brand": "CookMate",
+        "category": "Home & Kitchen",
+        "price": 3150,
+        "discount": "25%",
+        "sectionTags": [
+            "Just For You"
+        ],
+        "color_family": [
+            "Black"
+        ],
+        "warranty": "6 Months",
+        "images": [
+            "https://i.ibb.co.com/RGgv9x5S/image.png",
+            "https://i.ibb.co.com/xKxKnhyC/image.png",
+            "https://i.ibb.co.com/pjfDcGRT/image.png"
+        ],
+        "features": {
+            "pieces": "5",
+            "non_stick_coating": "Yes",
+            "induction_safe": "Yes"
+        },
+        "specifications": {
+            "material": "Aluminum",
+            "handle": "Heat resistant"
+        },
+        "ratings": {
+            "average_rating": 4.6,
+            "total_reviews": 103
+        }
+    },
+    {
+        "_id": "10",
+        "productName": "kids-educational-laptop",
+        "title": "Kids Educational Laptop Toy with Games",
+        "brand": "EduPlay",
+        "category": "Toys",
+        "price": 1250,
+        "discount": "30%",
+        "sectionTags": [
+            "Flash Sale",
+            "Featured"
+        ],
+        "color_family": [
+            "Blue",
+            "Pink"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/BVsb1q9p/image.png",
+            "https://i.ibb.co.com/GZ6rw8C/image.png",
+            "https://i.ibb.co.com/wh6xr1r5/image.png"
+        ],
+        "features": {
+            "functions": [
+                "Spelling",
+                "Math Games",
+                "Music"
+            ],
+            "battery": "3x AA (not included)"
+        },
+        "specifications": {
+            "age_group": "3-8 years",
+            "language": "English"
+        },
+        "ratings": {
+            "average_rating": 4.3,
+            "total_reviews": 132
+        }
+    },
+    {
+        "_id": "11",
+        "productName": "fantech-hq53",
+        "title": "FANTECH HQ53 FLASH LIGHTWEIGHT GAMING HEADSET",
+        "brand": "Fantech",
+        "category": "Electronics",
+        "price": 1180,
+        "discount": "15%",
+        "sectionTags": [
+            "Flash Sale",
+            "Featured",
+            "Just For You"
+        ],
+        "color_family": [
+            "Red",
+            "White"
+        ],
+        "warranty": "1 year Brand Warranty",
+        "images": [
+            "https://i.ibb.co.com/21GMpph2/image.png",
+            "https://i.ibb.co.com/gZdvrNHn/image.png",
+            "https://i.ibb.co.com/60gYsZDr/image.png"
+        ],
+        "features": {
+            "lighting_effect": "Accent lighting on each ear cup",
+            "connectivity": "3.5mm jack + USB",
+            "design": "Lightweight and comfortable"
+        },
+        "specifications": {
+            "speaker_size": "40mm",
+            "mic_noise_cancellation": "Yes",
+            "connector_type": "3.5mm + USB"
+        },
+        "ratings": {
+            "average_rating": 4.4,
+            "total_reviews": 209
+        }
+    },
+    {
+        "_id": "12",
+        "productName": "kitchen-blender-500w",
+        "title": "Sharp 500W Kitchen Blender With 2 Jars",
+        "brand": "Sharp",
+        "category": "Home & Kitchen",
+        "price": 2590,
+        "discount": "10%",
+        "sectionTags": [
+            "Featured",
+            "Just For You"
+        ],
+        "color_family": [
+            "White",
+            "Black"
+        ],
+        "warranty": "2 years Manufacturer Warranty",
+        "images": [
+            "https://i.ibb.co.com/ycCGv3RP/image.png",
+            "https://i.ibb.co.com/dw7k9kCb/image.png",
+            "https://i.ibb.co.com/CsK2Gr7m/image.png"
+        ],
+        "features": {
+            "power": "500W",
+            "capacity": "1.5L",
+            "blades": "Stainless steel blades"
+        },
+        "specifications": {
+            "voltage": "220V",
+            "speed_settings": "2 speed + pulse",
+            "material": "Plastic + Stainless Steel"
+        },
+        "ratings": {
+            "average_rating": 4.6,
+            "total_reviews": 118
+        }
+    },
+    {
+        "_id": "13",
+        "productName": "kids-building-blocks",
+        "title": "Creative Kids Building Blocks Set",
+        "brand": "ToyMaster",
+        "category": "Toys",
+        "price": 890,
+        "discount": "5%",
+        "sectionTags": [
+            "Just For You"
+        ],
+        "color_family": [
+            "Multicolor"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/cS4PPMvt/image.png",
+            "https://i.ibb.co.com/RTHQQbKs/image.png",
+            "https://i.ibb.co.com/MyWgdPFr/image.png"
+        ],
+        "features": {
+            "pieces": "120 pieces",
+            "material": "Safe ABS plastic",
+            "age": "3+ years"
+        },
+        "specifications": {
+            "package_weight": "1kg",
+            "package_dimensions": "30x20x10cm"
+        },
+        "ratings": {
+            "average_rating": 4.3,
+            "total_reviews": 74
+        }
+    },
+    {
+        "_id": "14",
+        "productName": "logitech-wireless-mouse",
+        "title": "Logitech M170 Wireless Mouse",
+        "brand": "Logitech",
+        "category": "Electronics",
+        "price": 950,
+        "discount": "20%",
+        "sectionTags": [
+            "Flash Sale"
+        ],
+        "color_family": [
+            "Black",
+            "Grey"
+        ],
+        "warranty": "1 year Brand Warranty",
+        "images": [
+            "https://i.ibb.co.com/BSFV9ZF/image.png",
+            "https://i.ibb.co.com/Ps1fTyGK/image.png",
+            "https://i.ibb.co.com/zWGX1k94/image.png"
+        ],
+        "features": {
+            "connectivity": "2.4GHz wireless",
+            "range": "Up to 10m",
+            "battery_life": "12 months"
+        },
+        "specifications": {
+            "sensor": "Optical",
+            "buttons": "3",
+            "dpi": "1000"
+        },
+        "ratings": {
+            "average_rating": 4.7,
+            "total_reviews": 312
+        }
+    },
+    {
+        "_id": "15",
+        "productName": "steel-water-bottle-1l",
+        "title": "1L Stainless Steel Vacuum Water Bottle",
+        "brand": "AquaGuard",
+        "category": "Home & Kitchen",
+        "price": 499,
+        "discount": "12%",
+        "sectionTags": [
+            "Featured"
+        ],
+        "color_family": [
+            "Silver"
+        ],
+        "warranty": "6 Months",
+        "images": [
+            "https://i.ibb.co.com/gZ64nbpk/image.png",
+            "https://i.ibb.co.com/FkXnQVJj/image.png",
+            "https://i.ibb.co.com/nq7b7sct/image.png"
+        ],
+        "features": {
+            "capacity": "1 liter",
+            "insulation": "Keeps hot/cold up to 12 hrs"
+        },
+        "specifications": {
+            "material": "Stainless Steel",
+            "weight": "300g"
+        },
+        "ratings": {
+            "average_rating": 4.5,
+            "total_reviews": 89
+        }
+    },
+    {
+        "_id": "16",
+        "productName": "wireless-earbuds-pro",
+        "title": "AirPro X5 True Wireless Earbuds",
+        "brand": "SoundMax",
+        "category": "Electronics",
+        "price": 2190,
+        "discount": "18%",
+        "sectionTags": [
+            "Flash Sale",
+            "Just For You"
+        ],
+        "color_family": [
+            "Black",
+            "White"
+        ],
+        "warranty": "1 year Warranty",
+        "images": [
+            "https://i.ibb.co.com/4RkTTHv9/image.png",
+            "https://i.ibb.co.com/gb9NTzrK/image.png",
+            "https://i.ibb.co.com/jvKDj4Fq/image.png"
+        ],
+        "features": {
+            "play_time": "Up to 20 hours",
+            "connectivity": "Bluetooth 5.1",
+            "charging": "USB-C fast charging"
+        },
+        "specifications": {
+            "water_resistant": "IPX4",
+            "driver_size": "10mm"
+        },
+        "ratings": {
+            "average_rating": 4.2,
+            "total_reviews": 145
+        }
+    },
+    {
+        "_id": "17",
+        "productName": "toys-remote-car-red",
+        "title": "Remote Control Racing Car - Red",
+        "brand": "ZoomToys",
+        "category": "Toys",
+        "price": 1450,
+        "discount": "10%",
+        "sectionTags": [
+            "Featured"
+        ],
+        "color_family": [
+            "Red",
+            "Blue",
+            "Yellow"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/LdMwcJYC/image.png",
+            "https://i.ibb.co.com/4R8RjRgX/image.png",
+            "https://i.ibb.co.com/wZj11nrv/image.png"
+        ],
+        "features": {
+            "speed": "Up to 20 km/h",
+            "range": "Up to 30m"
+        },
+        "specifications": {
+            "battery": "Rechargeable (included)",
+            "material": "ABS Plastic"
+        },
+        "ratings": {
+            "average_rating": 4.1,
+            "total_reviews": 96
+        }
+    },
+    {
+        "_id": "18",
+        "productName": "smart-watch-z6",
+        "title": "Z6 Fitness Smart Watch with Heart Rate Monitor",
+        "brand": "SmartLife",
+        "category": "Electronics",
+        "price": 1690,
+        "discount": "22%",
+        "sectionTags": [
+            "Flash Sale"
+        ],
+        "color_family": [
+            "Black",
+            "Pink"
+        ],
+        "warranty": "1 Year",
+        "images": [
+            "https://i.ibb.co.com/21QY0jKJ/image.png",
+            "https://i.ibb.co.com/fz72by1f/image.png",
+            "https://i.ibb.co.com/DgLWxqLW/image.png"
+        ],
+        "features": {
+            "functions": [
+                "Heart Rate",
+                "Step Count",
+                "Sleep Tracking"
+            ],
+            "connectivity": "Bluetooth"
+        },
+        "specifications": {
+            "screen_size": "1.3 inch",
+            "battery_life": "7 days"
+        },
+        "ratings": {
+            "average_rating": 4.0,
+            "total_reviews": 165
+        }
+    },
+    {
+        "_id": "19",
+        "productName": "non-stick-pan-set",
+        "title": "Non-Stick Cookware Set (5 Pieces)",
+        "brand": "CookMate",
+        "category": "Home & Kitchen",
+        "price": 3150,
+        "discount": "25%",
+        "sectionTags": [
+            "Just For You"
+        ],
+        "color_family": [
+            "Black"
+        ],
+        "warranty": "6 Months",
+        "images": [
+            "https://i.ibb.co.com/RGgv9x5S/image.png",
+            "https://i.ibb.co.com/xKxKnhyC/image.png",
+            "https://i.ibb.co.com/pjfDcGRT/image.png"
+        ],
+        "features": {
+            "pieces": "5",
+            "non_stick_coating": "Yes",
+            "induction_safe": "Yes"
+        },
+        "specifications": {
+            "material": "Aluminum",
+            "handle": "Heat resistant"
+        },
+        "ratings": {
+            "average_rating": 4.6,
+            "total_reviews": 103
+        }
+    },
+    {
+        "_id": "20",
+        "productName": "kids-educational-laptop",
+        "title": "Kids Educational Laptop Toy with Games",
+        "brand": "EduPlay",
+        "category": "Toys",
+        "price": 1250,
+        "discount": "30%",
+        "sectionTags": [
+            "Flash Sale",
+            "Featured"
+        ],
+        "color_family": [
+            "Blue",
+            "Pink"
+        ],
+        "warranty": "No Warranty",
+        "images": [
+            "https://i.ibb.co.com/BVsb1q9p/image.png",
+            "https://i.ibb.co.com/GZ6rw8C/image.png",
+            "https://i.ibb.co.com/wh6xr1r5/image.png"
+        ],
+        "features": {
+            "functions": [
+                "Spelling",
+                "Math Games",
+                "Music"
+            ],
+            "battery": "3x AA (not included)"
+        },
+        "specifications": {
+            "age_group": "3-8 years",
+            "language": "English"
+        },
+        "ratings": {
+            "average_rating": 4.3,
+            "total_reviews": 132
+        }
+    }
+]
