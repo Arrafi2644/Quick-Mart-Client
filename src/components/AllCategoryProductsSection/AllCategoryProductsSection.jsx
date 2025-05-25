@@ -25,7 +25,7 @@ const AllCategoryProductsSection = () => {
                     <div className='grid grid-cols-2 gap-2'>
                         {
                            (products.filter(product => product.category === category.name)).slice(0, 4).map(product => <Link key={product?._id} className='border border-gray-300 p-4' >
-                           <img className='h-30 w-full object-cover' src={product.images[0]} alt="" />
+                           <img className='h-32 w-full object-cover' src={product.images[0]} alt="" />
                            <h3 className='font-medium mt-2'>{product.productName}</h3>
                            </Link>) 
                         }

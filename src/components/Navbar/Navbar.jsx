@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { IoCartOutline } from 'react-icons/io5';
 import { MdOutlineAccountCircle } from 'react-icons/md';
 import { PiStorefront} from 'react-icons/pi';
 import { Link } from 'react-router';
+import { AuthContext } from '../../context/AuthProvider';
 
 const Navbar = () => {
+  const {name} = useContext(AuthContext)
+  console.log("name", name);
   return (
     <div className='bg-[#f95c07] text-white'>
       {/* nav-1  */}

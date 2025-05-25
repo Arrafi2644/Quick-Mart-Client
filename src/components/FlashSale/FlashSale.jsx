@@ -7,24 +7,24 @@ import SectionSlider from '../SectionSlider/SectionSlider';
 import SectionProducts from '../Categories/SectionProducts/SectionProducts';
 
 const FlashSale = () => {
-    const [products] = useAllProducts();
+    const [products, isLoading, refetch] = useAllProducts();
     
     const flashSaleProducts = products.filter(product =>
        product?.flash_sale === true
     );
 
-
-
     return (
-        <div className='mt-6 bg-white p-6'>
+        <div className='mt-6 bg-white py-6'>
            {/* Section heading  */}
-           <SectionHeader title={"Flash Sale"} />
+           {/* <SectionHeader title={"Flash Sale"} /> */}
+           <h2 className='text-lg md:text-xl px-6 pb-4 font-semibold '>Flash Sale</h2>
+
 
            {/* Section content  */}
-          <SectionProducts products={flashSaleProducts}/>
+          {/* <SectionProducts products={flashSaleProducts}/> */}
 
            {/* with slider  */}
-           {/* <SectionSlider products={flashSaleProducts}/> */}
+           <SectionSlider products={flashSaleProducts}/>
         </div>
     );
 };
