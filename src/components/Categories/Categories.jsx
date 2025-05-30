@@ -3,14 +3,6 @@ import { Link } from 'react-router';
 import useCategories from '../../hooks/useCategories';
 
 const Categories = () => {
-    // const [categories, setCategories] = useState([])
-
-    // useEffect(() => {
-    //     fetch("categories.json")
-    //         .then(res => res.json())
-    //         .then(data => setCategories(data))
-    //         .catch(error => console.log(error))
-    // }, [])
     const [categories, refetch, isLoading] = useCategories();
 
     // console.log("Categories are ", categories);
@@ -23,7 +15,7 @@ const Categories = () => {
             {/* section content */}
             <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9'>
                 {
-                    categories.map(category => <Link  key={category._id} className=' p-4 w-full flex items-center flex-col border hover:shadow-md hover:border border-gray-200 bg-white'>
+                    categories.map(category => <Link to={`/products/category/${category.name}`} state={category.name} key={category._id} className=' p-4 w-full flex items-center flex-col border hover:shadow-md hover:border border-gray-200 bg-white'>
                         <img className='w-full h-20 object-cover' src={category.image} alt={category.name} />
                         <h3 className='text-center mt-1'>{category.name}</h3>
                     </Link>)

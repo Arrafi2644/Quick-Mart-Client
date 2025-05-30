@@ -54,10 +54,10 @@ const ProductDetails = () => {
             <div className='flex items-center flex-wrap gap-1 mb-4'>
                 <Link to="/">Home </Link>
                 <span><IoIosArrowForward></IoIosArrowForward> </span>
-                <Link to={"/all-products"} state={product?.category}>{product?.category}</Link>
+                <Link to={`/products/category/${product?.category}`} state={product?.category}>{product?.category}</Link>
                 <span><IoIosArrowForward></IoIosArrowForward> </span>
-                <Link to={"/all-products"} state={product?.productName}>{product?.productName}</Link>
-                <span><IoIosArrowForward></IoIosArrowForward> </span>
+                {/* <Link to={`/products/category/${product?.category}/${product?.productName}`} state={product?.productName}>{product?.productName}</Link> */}
+                {/* <span><IoIosArrowForward></IoIosArrowForward> </span> */}
                 <span >{product?.model}</span>
 
             </div>
@@ -77,11 +77,11 @@ const ProductDetails = () => {
                     {/* review  */}
                     <div className='flex gap-1 items-center'>
                         <div className="rating rating-xs">
-                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#f95c07]" aria-label="1 star" checked />
-                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#f95c07]" aria-label="2 star" checked />
-                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#f95c07]" aria-label="3 star" checked />
-                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#f95c07]" aria-label="4 star" checked />
-                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#f95c07]" aria-label="5 star" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-600" aria-label="1 star" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-600" aria-label="2 star" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-600" aria-label="3 star" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-600" aria-label="4 star" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-600" aria-label="5 star" checked />
                         </div>
                         <span>(0)</span>
                     </div>
@@ -111,7 +111,7 @@ const ProductDetails = () => {
                         {/* <button className="btn btn-outline border-gray-300"><BiHeart size={22} /></button> */}
                     </div>
                     <Link to='/order-page' state={productInfo}>
-                        <button className="btn bg-[#f95c07] text-gray-50 w-full">Order Now</button>
+                        <button className="btn bg-orange-600 text-gray-50 w-full">Order Now</button>
                     </Link>
                 </div>
                 {/* Delivery info  */}
@@ -145,8 +145,8 @@ const ProductDetails = () => {
                     <div className="border border-dotted border-[#f95c07] p-4 space-y-1">
                         <p>Have question about this product? please call</p>
                         <div className="flex items-center gap-2">
-                            <FaPhoneAlt className="text-[#f95c07]" />
-                            <span className="text-[#f95c07] font-medium">01751166818</span>
+                            <FaPhoneAlt className="text-orange-600" />
+                            <span className="text-orange-600 font-medium">01751166818</span>
                         </div>
                     </div>
                 </div>

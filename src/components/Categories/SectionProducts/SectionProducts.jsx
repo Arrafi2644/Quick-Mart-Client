@@ -6,7 +6,7 @@ const SectionProducts = ({ products }) => {
     return (
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
             {
-                products.map(product => <Link className='border border-gray-200 hover:shadow-md bg-white hover:shadow-gray-300'>
+                products.map(product => <Link key={product._id} to={`/products/${product._id}`} className='border border-gray-200 hover:shadow-md bg-white hover:shadow-gray-300'>
                     <img className='h-64 object-cover w-full mt-2' src={product?.images[0]} alt={product?.name} />
                     <div className='p-2'>
                         <h3 className='font-medium text-sm'>{product?.title}</h3>
