@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 const Signup = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const { signupUser, updateUserProfile, googleLogin } = useAuth();
+  const { signUpUser, updateUserProfile, googleLogin } = useAuth();
   const axiosPublic = useAxiosPublic()
   const location = useLocation();
   // console.log(location);
@@ -37,7 +37,9 @@ const Signup = () => {
     const phone = data.mobileNo;
     const password = data.password;
 
-    signupUser(email, password)
+    console.log(signUpUser);
+
+    signUpUser(email, password)
       .then(res => {
         console.log(res);
         updateUserProfile({ displayName: name, phoneNumber: phone })

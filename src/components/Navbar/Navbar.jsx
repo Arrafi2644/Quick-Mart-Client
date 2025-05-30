@@ -37,7 +37,7 @@ const Navbar = () => {
             <li><Link > <PiStorefront size={20} /> <span className='hidden lg:block'>Become a Seller</span></Link></li>
             {/* <li><Link > <MdOutlineAccountCircle size={20} /> Login</Link></li> */}
             <div className="dropdown">
-                                <div tabIndex={0} role="button" className="text-right p-1.5 hover:bg-base-300 cursor-pointer rounded-md">{user ? <span className='border-2 rounded-full h-6 w-6 flex items-center justify-center '>{user?.displayName.slice(0, 1)}</span> : < PiUserCircle size={20} />}</div>
+                                <div tabIndex={0} role="button" className="text-right p-1.5 hover:bg-base-300 cursor-pointer rounded-md">{user ? <span className='border-2 rounded-full h-6 w-6 flex items-center justify-center '>{user?.displayName?.slice(0, 1)}</span> : < PiUserCircle size={20} />}</div>
                                 <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-36 -right-1 pr-0 top-7 shadow-sm text-gray-900">
                                     {
                                         user ?

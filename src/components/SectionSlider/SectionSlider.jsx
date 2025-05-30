@@ -51,14 +51,16 @@ const SectionSlider = ({ products }) => {
                 products?.length > 0 && 
             <Slider className='px-4'  {...settings}>
                 {
-                    products.map(product => <div className='h-80 border-gray-200 border p-2 hover:shadow-md px-2'>
+                    products.map(product => <Link to={`products/${product._id}`} key={product._id}>
+                    <div className='h-80 border-gray-200 border p-2 hover:shadow-md px-2'>
                         <img className='h-44 w-full object-center object-cover' src={product?.images[0]} alt={product?.name} />
                         <div className='mt-2'>
                             <h3 className='font-medium text-sm'>{product?.title}</h3>
                             <div className='flex items-center'><TbCurrencyTaka /><h3>{product?.price}</h3></div>
                             <h3 className='flex items-center gap-0.5'><del className='flex items-center text-gray-400' ><TbCurrencyTaka />{product?.price}</del>-{product?.discount}%</h3>
                         </div>
-                    </div>)
+                    </div>
+                    </Link> )
                 }
             </Slider>
             }

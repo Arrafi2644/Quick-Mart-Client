@@ -4,10 +4,10 @@ import { Link } from 'react-router';
 
 const SectionProducts = ({ products }) => {
     return (
-        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
             {
-                products.slice(0, 6).map(product => <Link className='border border-gray-200 hover:shadow-md hover:shadow-gray-300'>
-                    <img className='h-48 object-cover w-full mt-2' src={product?.images[0]} alt={product?.name} />
+                products.map(product => <Link className='border border-gray-200 hover:shadow-md bg-white hover:shadow-gray-300'>
+                    <img className='h-64 object-cover w-full mt-2' src={product?.images[0]} alt={product?.name} />
                     <div className='p-2'>
                         <h3 className='font-medium text-sm'>{product?.title}</h3>
                         <h3 className='flex items-center gap-0 font-medium text-lg'><TbCurrencyTaka />{parseInt(product?.price - product?.price * product.discount / 100)}</h3>
