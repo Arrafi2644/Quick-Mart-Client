@@ -76,7 +76,7 @@ const Products = () => {
                                 categories.map(category => (
                                     <Link
                                         to={`/${category?.name}`}
-                                        onClick={() => { setBrand(""); setService("") }}
+                                        onClick={() => { setBrand(""); setService(""); setWarranty(""); setMinPrice(0); setMaxPrice(0); setMinInput(""); setMaxInput(""); }}
                                         key={category._id}
                                         className={` ${category?.name === decodedCategory ? "active" : ""} border border-gray-300 rounded-md p-1`}
                                     >
