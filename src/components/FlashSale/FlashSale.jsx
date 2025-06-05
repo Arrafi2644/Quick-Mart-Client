@@ -13,6 +13,8 @@ const FlashSale = () => {
        product?.flash_sale === true
     );
 
+    console.log("flash sales products ", flashSaleProducts);
+
     return (
         <div className='mt-6 bg-white py-6'>
            {/* Section heading  */}

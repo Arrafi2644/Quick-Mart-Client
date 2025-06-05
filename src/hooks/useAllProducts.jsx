@@ -1,14 +1,23 @@
 import useAxiosSecure from './useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 
-const useAllProducts = () => {
+const useAllProducts = (params = {}) => {
+    const { decodedCategory, brand, service, warranty, minPrice, maxPrice } = params
 
-    const axiosSecure = useAxiosSecure()
+    const category = encodeURIComponent(decodedCategory)
+    console.log("Category", category);
+    console.log("Brand ", brand);
+    console.log("Service ", service);
+    console.log("warranty ", warranty);
+    console.log("min price ", minPrice);
+    console.log("max price ", maxPrice);
+
+    const axiosSecure = useAxiosSecure();
 
     const { data: products = [], isLoading, refetch } = useQuery({
-        queryKey: ["products"],
+        queryKey: ["products", category, brand, service, warranty, minPrice, maxPrice],
         queryFn: async () => {
-            const { data } = await axiosSecure.get('/products')
+            const { data } = await axiosSecure.get(`/products?category=${category}&brand=${brand}&service=${service}&warranty=${warranty}&min=${minPrice}&max=${maxPrice}`)
             return data;
         }
     })

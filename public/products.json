@@ -11,7 +11,8 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["Red", "White"],
-        "warranty": "1 year Brand Warranty",
+        "warranty": "1 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/21GMpph2/image.png",
             "https://i.ibb.co.com/gZdvrNHn/image.png",
@@ -44,7 +45,8 @@
         "featured": true,
         "flash_sale": true,
         "color_family": ["Black", "Grey"],
-        "warranty": "1 year Brand Warranty",
+        "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/BSFV9ZF/image.png",
             "https://i.ibb.co.com/Ps1fTyGK/image.png",
@@ -77,7 +79,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Black", "White"],
-        "warranty": "1 year Warranty",
+        "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/4RkTTHv9/image.png",
             "https://i.ibb.co.com/gb9NTzrK/image.png",
@@ -110,6 +113,7 @@
         "flash_sale": true,
         "color_family": ["Black", "Pink"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/21QY0jKJ/image.png",
             "https://i.ibb.co.com/fz72by1f/image.png",
@@ -140,7 +144,8 @@
         "featured": true,
         "flash_sale": true,
         "color_family": ["Black", "Blue", "Red"],
-        "warranty": "1 Year Apple Warranty",
+        "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/GfKCGMnT/image.png",
             "https://i.ibb.co.com/C5YwFtHP/image.png",
@@ -172,7 +177,8 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["Silver", "Space Grey"],
-        "warranty": "1 Year Apple Warranty",
+        "warranty": "1 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/NdT4kxjc/image.png",
             "https://i.ibb.co.com/ycbpSV0Y/image.png",
@@ -205,7 +211,8 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["White", "Black"],
-        "warranty": "2 years Manufacturer Warranty",
+        "warranty": "6 Months",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/ycCGv3RP/image.png",
             "https://i.ibb.co.com/dw7k9kCb/image.png",
@@ -239,6 +246,7 @@
         "flash_sale": false,
         "color_family": ["Silver"],
         "warranty": "6 Months",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/gZ64nbpk/image.png",
             "https://i.ibb.co.com/FkXnQVJj/image.png",
@@ -270,6 +278,7 @@
         "flash_sale": true,
         "color_family": ["Black"],
         "warranty": "6 Months",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/RGgv9x5S/image.png",
             "https://i.ibb.co.com/xKxKnhyC/image.png",
@@ -301,7 +310,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Black"],
-        "warranty": "2 Years",
+        "warranty": "2 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/G10Tj6j/image.png",
             "https://i.ibb.co.com/G10Tj6j/image.png",
@@ -334,6 +344,7 @@
         "flash_sale": false,
         "color_family": ["Silver", "Black"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/kettle-image1.png",
             "https://i.ibb.co.com/kettle-image2.png",
@@ -366,6 +377,7 @@
         "flash_sale": true,
         "color_family": ["Silver"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/toaster-image1.png",
             "https://i.ibb.co.com/toaster-image2.png",
@@ -397,8 +409,9 @@
         "discount": 5,
         "featured": false,
         "flash_sale": true,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/cS4PPMvt/image.png",
             "https://i.ibb.co.com/RTHQQbKs/image.png",
@@ -431,6 +444,7 @@
         "flash_sale": false,
         "color_family": ["Red", "Blue", "Yellow"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/LdMwcJYC/image.png",
             "https://i.ibb.co.com/4R8RjRgX/image.png",
@@ -460,8 +474,9 @@
         "discount": 8,
         "featured": false,
         "flash_sale": true,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/6kpvC0B/image.png",
             "https://i.ibb.co.com/6kpvC0B/image.png",
@@ -492,8 +507,9 @@
         "discount": 12,
         "featured": true,
         "flash_sale": false,
-        "color_family": ["Multicolor"],
+        "color_family":["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/WNJ21fJ1/image.png",
             "https://i.ibb.co.com/WNJ21fJ1/image.png",
@@ -526,6 +542,7 @@
         "flash_sale": true,
         "color_family": ["Red", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/actionfigure-image1.png",
             "https://i.ibb.co.com/actionfigure-image2.png",
@@ -556,8 +573,9 @@
         "discount": 15,
         "featured": true,
         "flash_sale": false,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/boardgame-image1.png",
             "https://i.ibb.co.com/boardgame-image2.png",
@@ -590,6 +608,7 @@
         "flash_sale": false,
         "color_family": ["White"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/M53Jx404/image.png",
             "https://i.ibb.co.com/M53Jx404/image.png",
@@ -621,7 +640,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Black", "White"],
-        "warranty": "2 Years",
+        "warranty": "2 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/TMy4HdqF/image.png",
             "https://i.ibb.co.com/TMy4HdqF/image.png",
@@ -654,6 +674,7 @@
         "flash_sale": false,
         "color_family": ["Red", "Pink", "Nude"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/fYXn0XQ1/image.png",
             "https://i.ibb.co.com/fYXn0XQ1/image.png",
@@ -685,7 +706,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["White", "Blue"],
-        "warranty": "2 Years",
+        "warranty": "1 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/XxrS5xJq/image.png",
             "https://i.ibb.co.com/XxrS5xJq/image.png",
@@ -718,6 +740,7 @@
         "flash_sale": false,
         "color_family": ["Green"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/facemask-image1.png",
             "https://i.ibb.co.com/facemask-image2.png",
@@ -750,6 +773,7 @@
         "flash_sale": true,
         "color_family": ["Black"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/massager-image1.png",
             "https://i.ibb.co.com/massager-image2.png",
@@ -783,6 +807,7 @@
         "flash_sale": false,
         "color_family": ["Blue", "Purple"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/xKndBzds/image.png",
             "https://i.ibb.co.com/xKndBzds/image.png",
@@ -815,6 +840,7 @@
         "flash_sale": true,
         "color_family": ["Black"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/Xf9003B4/image.png",
             "https://i.ibb.co.com/Xf9003B4/image.png",
@@ -846,7 +872,8 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["Black"],
-        "warranty": "2 Years",
+        "warranty": "1 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/35zYLnGs/image.png",
             "https://i.ibb.co.com/35zYLnGs/image.png",
@@ -878,7 +905,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Green", "Blue"],
-        "warranty": "1 Year",
+        "warranty": "6 Months",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/GQRv4xZ5/image.png",
             "https://i.ibb.co.com/GQRv4xZ5/image.png",
@@ -911,6 +939,7 @@
         "flash_sale": false,
         "color_family": ["Black", "Green"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/backpack-image1.png",
             "https://i.ibb.co.com/backpack-image2.png",
@@ -942,7 +971,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Black", "Red"],
-        "warranty": "2 Years",
+        "warranty": "2 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/bike-image1.png",
             "https://i.ibb.co.com/bike-image2.png",
@@ -976,6 +1006,7 @@
         "flash_sale": false,
         "color_family": ["Blue", "White", "Black"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/ZzqKQGX3/image.png",
             "https://i.ibb.co.com/ZzqKQGX3/image.png",
@@ -1008,6 +1039,7 @@
         "flash_sale": true,
         "color_family": ["White", "Black"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/dwwd0Gjy/image.png",
             "https://i.ibb.co.com/dwwd0Gjy/image.png",
@@ -1040,6 +1072,7 @@
         "flash_sale": false,
         "color_family": ["Black", "Brown"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/8D1MBnQC/image.png",
             "https://i.ibb.co.com/8D1MBnQC/image.png",
@@ -1072,6 +1105,7 @@
         "flash_sale": true,
         "color_family": ["Blue", "Black"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/MxjYkdSD/image.png",
             "https://i.ibb.co.com/MxjYkdSD/image.png",
@@ -1103,7 +1137,7 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["Black", "Gold"],
-        "warranty": "1 Year",
+        "warranty": "6 Months",
         "images": [
             "https://i.ibb.co.com/sunglasses-image1.png",
             "https://i.ibb.co.com/sunglasses-image2.png",
@@ -1135,7 +1169,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["Silver", "Black"],
-        "warranty": "2 Years",
+        "warranty": "2 Year",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/watch-image1.png",
             "https://i.ibb.co.com/watch-image2.png",
@@ -1168,7 +1203,8 @@
         "featured": true,
         "flash_sale": false,
         "color_family": ["Black", "Blue"],
-        "warranty": "1 Year",
+        "warranty": "3 Months",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/sJKthKhr/image.png",
             "https://i.ibb.co.com/sJKthKhr/image.png",
@@ -1201,6 +1237,7 @@
         "flash_sale": true,
         "color_family": ["White"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/dYNSwbb/image.png",
             "https://i.ibb.co.com/dYNSwbb/image.png",
@@ -1233,6 +1270,7 @@
         "flash_sale": false,
         "color_family": ["White"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/RT7yNnTn/image.png",
             "https://i.ibb.co.com/RT7yNnTn/image.png",
@@ -1265,6 +1303,7 @@
         "flash_sale": true,
         "color_family": ["Grey", "White"],
         "warranty": "1 Year",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/vvDzPgtk/image.png",
             "https://i.ibb.co.com/vvDzPgtk/image.png",
@@ -1297,6 +1336,7 @@
         "flash_sale": false,
         "color_family": ["Clear"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/babybottle-image1.png",
             "https://i.ibb.co.com/babybottle-image2.png",
@@ -1327,8 +1367,9 @@
         "discount": 12,
         "featured": false,
         "flash_sale": true,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/activitygym-image1.png",
             "https://i.ibb.co.com/activitygym-image2.png",
@@ -1362,6 +1403,7 @@
         "flash_sale": false,
         "color_family": ["Black", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/j91VhJJq/image.png",
             "https://i.ibb.co.com/j91VhJJq/image.png",
@@ -1395,6 +1437,7 @@
         "flash_sale": true,
         "color_family": ["Black", "Blue", "Red"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/N6tJwq51/image.png",
             "https://i.ibb.co.com/N6tJwq51/image.png",
@@ -1425,8 +1468,9 @@
         "discount": 15,
         "featured": true,
         "flash_sale": false,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/bjMGzbbx/image.png",
             "https://i.ibb.co.com/bjMGzbbx/image.png",
@@ -1457,8 +1501,9 @@
         "discount": 10,
         "featured": false,
         "flash_sale": true,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/YBhgZdG7/image.png",
             "https://i.ibb.co.com/YBhgZdG7/image.png",
@@ -1491,6 +1536,7 @@
         "flash_sale": false,
         "color_family": ["Black", "Red"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/planner-image1.png",
             "https://i.ibb.co.com/planner-image2.png",
@@ -1523,6 +1569,7 @@
         "flash_sale": true,
         "color_family": ["Yellow", "Pink", "Green", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/DgLPYzP5/image.png",
             "https://i.ibb.co.com/DgLPYzP5/image.png",
@@ -1556,6 +1603,7 @@
         "flash_sale": false,
         "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/pjsnbJ5n/image.png",
             "https://i.ibb.co.com/pjsnbJ5n/image.png",
@@ -1588,6 +1636,7 @@
         "flash_sale": true,
         "color_family": ["Beige", "Grey"],
         "warranty": "No Warranty",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/Swrw1ncR/image.png",
             "https://i.ibb.co.com/Swrw1ncR/image.png",
@@ -1618,8 +1667,9 @@
         "discount": 12,
         "featured": true,
         "flash_sale": false,
-        "color_family": ["Multicolor"],
+        "color_family": ["White", "Blue"],
         "warranty": "No Warranty",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/2mw95dg/image.png",
             "https://i.ibb.co.com/2mw95dg/image.png",
@@ -1651,7 +1701,8 @@
         "featured": false,
         "flash_sale": true,
         "color_family": ["White", "Black"],
-        "warranty": "1 Year",
+        "warranty": "6 Months",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/cSw9yWW7/image.png",
             "https://i.ibb.co.com/cSw9yWW7/image.png",
@@ -1684,6 +1735,7 @@
         "flash_sale": false,
         "color_family": ["Grey", "Beige"],
         "warranty": "No Warranty",
+        "is_delivery_free": true,
         "images": [
             "https://i.ibb.co.com/qLBb0Z59/image.png",
             "https://i.ibb.co.com/qLBb0Z59/image.png",
@@ -1716,6 +1768,7 @@
         "flash_sale": true,
         "color_family": ["Gold", "Silver"],
         "warranty": "No Warranty",
+        "is_delivery_free": false,
         "images": [
             "https://i.ibb.co.com/fd5zMcgQ/image.png",
             "https://i.ibb.co.com/fd5zMcgQ/image.png",

@@ -15,7 +15,7 @@ const Navbar = () => {
     toast.success("Logout successful!")
   }
   return (
-    <div className='bg-orange-600 text-white'>
+    <div className='bg-orange-600 text-white font-medium'>
       {/* nav-1  */}
       <div className="navbar justify-between container mx-auto px-2">
         <div className="navbar-start w-auto md:w-1/3">

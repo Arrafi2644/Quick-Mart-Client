@@ -54,9 +54,9 @@ const ProductDetails = () => {
             <div className='flex items-center flex-wrap gap-1 mb-4'>
                 <Link to="/">Home </Link>
                 <span><IoIosArrowForward></IoIosArrowForward> </span>
-                <Link to={`/products/category/${product?.category}`} state={product?.category}>{product?.category}</Link>
+                <Link to={`/${product?.category}`} state={product?.category}>{product?.category}</Link>
                 <span><IoIosArrowForward></IoIosArrowForward> </span>
-                {/* <Link to={`/products/category/${product?.category}/${product?.productName}`} state={product?.productName}>{product?.productName}</Link> */}
+                {/* <Link to={`/${product?.category}/${product?.productName}`} state={product?.productName}>{product?.productName}</Link> */}
                 {/* <span><IoIosArrowForward></IoIosArrowForward> </span> */}
                 <span >{product?.model}</span>
 
