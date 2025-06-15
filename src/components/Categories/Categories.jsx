@@ -9,11 +9,12 @@ const Categories = () => {
     return (
         <div className='mt-6 pt-6 px-1 md:px-4 bg-white '>
             {/* section heading  */}
-            <div className=' pb-2 '>
+            <div className=' pb-2 flex gap-4 justify-between items-center'>
                 <h2 className='text-lg md:text-xl font-semibold'>Categories</h2>
+                <Link to="/categories"><button className="btn btn-sm text-white bg-orange-600 hover:bg-orange-500">View All</button></Link>
             </div>
             {/* section content */}
-            <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-9'>
+            <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
                 {
                     ...categories.slice(0, 8).map(category => <Link to={`/${category.name}`} state={category.name} key={category._id} className=' p-2 w-full flex items-center flex-col border hover:shadow-md hover:border border-gray-200 bg-white'>
                         <img className='w-full h-14 md:h-20 object-cover' src={category.image} alt={category.name} />
