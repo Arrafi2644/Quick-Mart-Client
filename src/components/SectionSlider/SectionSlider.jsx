@@ -12,8 +12,8 @@ const SectionSlider = ({ products }) => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 3,
+        slidesToShow: 5,
+        slidesToScroll: 2,
         initialSlide: 0,
         // autoplay: true,
         // autoplaySpeed: 3000,
@@ -29,7 +29,7 @@ const SectionSlider = ({ products }) => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
@@ -48,21 +48,21 @@ const SectionSlider = ({ products }) => {
     return (
         <div className="slider-container">
             {
-                products?.length > 0 && 
-            <Slider className='px-4'  {...settings}>
-                {
-                    products.map(product => <Link to={`products/${product._id}`} key={product._id}>
-                    <div className='h-80 border-gray-200 border p-2 hover:shadow-md px-2'>
-                        <img className='h-44 w-full object-center object-cover' src={product?.images[0]} alt={product?.name} />
-                        <div className='mt-2'>
-                            <h3 className='font-medium text-sm'>{product?.title}</h3>
-                            <div className='flex items-center'><TbCurrencyTaka /><h3>{product?.price}</h3></div>
-                            <h3 className='flex items-center gap-0.5'><del className='flex items-center text-gray-400' ><TbCurrencyTaka />{product?.price}</del>-{product?.discount}%</h3>
-                        </div>
-                    </div>
-                    </Link> )
-                }
-            </Slider>
+                products?.length > 0 &&
+                <Slider className='px-1 md:px-4'  {...settings}>
+                    {
+                        products.map(product => <Link to={`products/${product._id}`} key={product._id}>
+                            <div className='h-76 md:h-80 -ml-4 border-gray-200 border p-0 hover:shadow-md px-2'>
+                                <img className='h-44 w-full md:h-48 md:w-48 mx-auto object-center object-cover' src={product?.images[0]} alt={product?.name} />
+                                <div className='m-2'>
+                                    <h3 className='font-medium text-sm'>{product?.title}</h3>
+                                    <div className='flex items-center'><TbCurrencyTaka /><h3>{product?.price}</h3></div>
+                                    <h3 className='flex items-center gap-0.5'><del className='flex items-center text-gray-400' ><TbCurrencyTaka />{product?.price}</del>-{product?.discount}%</h3>
+                                </div>
+                            </div>
+                        </Link>)
+                    }
+                </Slider>
             }
         </div>
     );

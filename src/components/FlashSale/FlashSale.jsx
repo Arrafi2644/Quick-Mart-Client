@@ -19,7 +19,8 @@ const FlashSale = () => {
         <div className='mt-6 bg-white py-6'>
            {/* Section heading  */}
            {/* <SectionHeader title={"Flash Sale"} /> */}
-           <h2 className='text-lg md:text-xl px-6 pb-4 font-semibold '>Flash Sale</h2>
+           <h2 className='text-lg md:text-xl px-1 md:px-6 pb-4 font-semibold '>Flash Sale</h2>
+           
 
 
            {/* Section content  */}

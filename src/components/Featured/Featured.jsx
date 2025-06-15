@@ -15,7 +15,7 @@ const Featured = () => {
         <div className='mt-6 bg-white py-6'>
             {/* Section heading  */}
             {/* <SectionHeader title={"Featured"} /> */}
-            <h2 className='text-lg md:text-xl px-6 pb-4 font-semibold '>Featured</h2>
+            <h2 className='text-lg md:text-xl px-1 md:px-6 pb-4 font-semibold '>Featured</h2>
 
             {/* Section content  */}
             {/* <SectionProducts products={featuredProducts}/> */}

@@ -7,7 +7,7 @@ const Categories = () => {
 
     // console.log("Categories are ", categories);
     return (
-        <div className='mt-6 p-6 bg-white '>
+        <div className='mt-6 pt-6 px-1 md:px-4 bg-white '>
             {/* section heading  */}
             <div className=' pb-2 '>
                 <h2 className='text-lg md:text-xl font-semibold'>Categories</h2>

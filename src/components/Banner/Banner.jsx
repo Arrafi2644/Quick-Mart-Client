@@ -28,13 +28,13 @@ const Banner = () => {
 
     return (
         <Slider ref={slider => (sliderRef = slider)}  {...settings}>
-            <Link className='h-[450px] w-full '>
+            <Link className='h-auto w-full '>
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/gMqH4VQm/image.png" alt="" />
             </Link>
-            <Link className='h-[450px] w-full '>
+            <Link className='h-auto w-full '>
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/ycq2CsFW/image.png" alt="" />
             </Link>
-            <Link className='h-[450px] w-full '>
+            <Link className='h-auto w-full '>
                 <img className='w-full h-full object-cover' src="https://i.ibb.co.com/BVZVL460/image.png" alt="" />
             </Link>
         </Slider>
